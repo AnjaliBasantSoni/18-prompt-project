@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 60%;
+    height: 95%;
+    background-color: #000;
+    font-family: monospace;
+}
+#nav{
+    width: 100%;
+    height: 20%;
+    /* background-color: #fff; */
+    display: flex;
+    padding: 10px 40px;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+#letter{
+    font-size: 30px;
+    word-spacing: -10px;
+    letter-spacing: -2px;
+}
+#letter h4{
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgb(224, 152, 188);
+}
+#logo{
+    width: 8%;
+    height: 40%;
+    padding: 10px 20px;
+    font-weight: 900;
+    font-size: 15px;
+    border: 2px dotted white;
+    /* background-color: hotpink; */
+}
+hr{
+    color: #fff;
+    height: 10px;
+    background-color: rgb(224, 152, 188);
+}
+#line{
+    width: 100%;
+    height: 30px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: grey;
+    margin-top: 40px;
+}
+#line h2{
+   margin-left: 15%;
+}
+.box{
+    width: 80%;
+    height: 10%;
+    /* background-color: #fff; */
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#small{
+    width: 10%;
+    height: 100%;
+    background: linear-gradient(rgb(201, 113, 157), rgb(219, 67, 92));
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    margin-left: 0%;
+}
+#small:hover{
+    background: rgb(70, 228, 70);
+    color: #000;
+}
+#long{
+    width: 80%;
+    height: 100%;
+    background:linear-gradient(rgb(201, 113, 157), rgb(196, 177, 180)) ;
+    margin-left: 8%;
+    position:relative;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#long img{
+    width: 90px;
+    height: 88px;
+    object-fit: cover;
+    margin-left: -88%;
+    position: absolute;
+}
+#long img:hover{
+    scale: 1.2;
+}
+#long h2{
+    margin-left: -39%;
+    position: absolute;
+    text-align: start;
+}
+#long h2:hover{
+    scale: 1.2;
+    color: #fff;
+}
+#long h3{
+    margin-left: 70%;
+}
+#long h3:hover{
+    scale: 1.2;
+    color: red;
+}
+#hear{
+    margin-left: 40%;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 20px;
+}
